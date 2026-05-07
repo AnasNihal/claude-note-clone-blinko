@@ -140,15 +140,7 @@ export const allSettings: SettingItem[] = [
     requireAdmin: true,
     keywords: ['plugin', 'plugins', '插件', '插件设置'],
   },
-  {
-    key: 'about',
-    title: ('about'),
-    icon: 'tabler:info-circle',
-    component: <AboutSetting />,
-    requireAdmin: false,
-    keywords: ['about', 'information', '关于', '信息'],
-  },
-];
+  ];
 const Page = observer(() => {
   const user = RootStore.Get(UserStore);
   const blinkoStore = RootStore.Get(BlinkoStore);

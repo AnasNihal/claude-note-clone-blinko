@@ -42,13 +42,7 @@ export class BaseStore implements Store {
       hiddenMobile: true,
       icon: 'hugeicons:analytics-01',
     },
-    {
-      title: 'resources',
-      href: '/resources',
-      icon: 'solar:database-linear',
-      hiddenMobile: true,
-    },
-    {
+        {
       title: 'archived',
       href: '/?path=archived',
       icon: 'solar:box-broken',
